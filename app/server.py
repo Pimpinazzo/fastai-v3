@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-1YsNb182_z3NeFSWJK1CMn8jEuZUtXD'
+export_file_url = 'https://drive.google.com/file/d/1GavmdJ8bPFeNkVysGQM5dZ_JLdk2rCte/view?usp=sharing'
 export_file_name = 'export.pkl'
 
 classes = ['no_finding', 'interstitial_pattern', 'alveolar_pattern','mass','pneumothorax','pleural_effusion','cardiomegaly']
